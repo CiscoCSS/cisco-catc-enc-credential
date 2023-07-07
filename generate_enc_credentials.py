@@ -48,7 +48,7 @@ if __name__ == '__main__':
     enc_pwd1 = cipher_suite.encrypt(bytes(DNAC_PASS1, 'utf-8'))
     credentials['user1'] = enc_user1
     credentials['password1'] = enc_pwd1
-    print("DNAC Password entered by user: ", DNAC_USER1)
+    print("DNAC user: ", DNAC_USER1)
     print("DNAC Password entered by user: ", DNAC_PASS1)
     with open(ENC_USER1_FILE, 'wb') as writer:
         writer.write(enc_user1)
