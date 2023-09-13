@@ -30,9 +30,8 @@ Step 2. Generate encrypted user and password or credentials (Sanitize Prime): - 
 Step 3. Decrypt Credentials or Desanitize Prime: python decrypt_credentials.py 
 Step 4. Use it with DNAC files. Add encrypted username dnac_enc_user1.txt password dnac_enc_pass1.txt copy to dnac_config file.
 Step 5. On DNAC File that you run example dnac_file.py. 
-        #Run DNAC file: python dnac_file.py
-        #python decrypt_credential.py
-        python dnac_encrypted.py
+        Run DNAC file: python dnac_file.py or python decrypt_credential.py  or python dnac_encrypted.py
+        
 Cisco DNA Center License: This project is licensed to you under the terms of the Cisco Sample Code License.
 
 Disclaimer: This document is Cisco Confidential information provided for your internal business use in connection with the Cisco Services purchased
