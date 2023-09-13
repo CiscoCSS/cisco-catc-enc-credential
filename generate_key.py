@@ -22,12 +22,12 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 
 from cryptography.fernet import Fernet
 
-FILE_DIR ='<DIR PATH ABSOLUTE for Key File, username, password encrypted files>'
-FILENAME =FILE_DIR + '/key.txt'
+FILE_DIR = '/Users/shirkhan/PycharmProjects/encryption/crypto/'
+FILENAME = FILE_DIR + 'key.txt'
 
 if __name__ == '__main__':
     key = Fernet.generate_key()
-    print(key)
+    #print(key)
     #Save this key in file or db
     with open(FILENAME, 'wb') as file_object:
         file_object.write(key)
