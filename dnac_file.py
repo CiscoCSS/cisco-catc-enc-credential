@@ -24,10 +24,10 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 from cryptography.fernet import Fernet
 from dnac_config import DNAC_URL_REGION1, DNAC_PASS_REGION1, DNAC_USER_REGION1
 
-FILE_DIR ='<DIR PATH ABSOLUTE for Key File, username, password encrypted files'
-FILENAME =FILE_DIR + '/key.txt'
-ENC_USER1_FILE= FILE_DIR + '/enc_user1.txt'
-ENC_PASS1_FILE= FILE_DIR + '/enc_pass1.txt'
+FILE_DIR ='/<DIR PATH ABSOLUTE for Key File, username, password encrypted files/'
+FILENAME = FILE_DIR + 'key.txt'
+ENC_USER1_FILE = FILE_DIR + 'dnac_enc_user1.txt'
+ENC_PASS1_FILE = FILE_DIR + 'dnac_enc_pass1.txt'
 
 if __name__ == '__main__':
     #Add this to dnac_code
