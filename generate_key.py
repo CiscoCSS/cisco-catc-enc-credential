@@ -22,7 +22,7 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 
 from cryptography.fernet import Fernet
 
-FILE_DIR = '/Users/shirkhan/PycharmProjects/encryption/crypto/'
+FILE_DIR = '/<Fullpath to Directory where Key file will be written>/'
 FILENAME = FILE_DIR + 'key.txt'
 
 if __name__ == '__main__':
