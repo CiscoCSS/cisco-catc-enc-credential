@@ -25,13 +25,13 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 import getpass
 from cryptography.fernet import Fernet
 
-DNAC_USER1 = input('Username: ')
+DNAC_USER1 = input('DNAC Username: ')
 DNAC_PASS1 = getpass.getpass()
-
-FILE_DIR ='<DIR PATH ABSOLUTE for Key File, username, password encrypted files>'
-FILENAME =FILE_DIR + '/key.txt'
-ENC_USER1_FILE= FILE_DIR + '/enc_user1.txt'
-ENC_PASS1_FILE= FILE_DIR + '/enc_pass1.txt'
+#if you want to keep key file in a different directory and user and password in a different directory then FILE_USERDIR to FILE_DIR and add the path
+FILE_DIR = '/<Full path to Directory where Key file and user and password file path>/'
+FILENAME = FILE_DIR + 'key.txt'
+ENC_USER1_DNAC = FILE_DIR + 'dnac_enc_user1.txt'
+ENC_PASS1_DNAC = FILE_DIR + 'dnac_enc_pass1.txt'
 
 if __name__ == '__main__':
     credentials = {}
@@ -40,17 +40,13 @@ if __name__ == '__main__':
     with open(FILENAME, 'rb') as file_object:
         for line in file_object:
             enc_key = line
-    print(enc_key)
-
     #Get the read encrypted key and get the password entered when script is run
     cipher_suite = Fernet(enc_key)
-    enc_user1 = cipher_suite.encrypt(bytes(DNAC_USER1, 'utf-8'))
-    enc_pwd1 = cipher_suite.encrypt(bytes(DNAC_PASS1, 'utf-8'))
-    credentials['user1'] = enc_user1
-    credentials['password1'] = enc_pwd1
-    print("DNAC user: ", DNAC_USER1)
-    print("DNAC Password entered by user: ", DNAC_PASS1)
-    with open(ENC_USER1_FILE, 'wb') as writer:
-        writer.write(enc_user1)
-    with open(ENC_PASS1_FILE, 'wb') as writer:
-        writer.write(enc_pwd1)
+    credentials['dnac_user1'] = cipher_suite.encrypt(bytes(DNAC_USER1, 'utf-8'))
+    credentials['dnac_password1'] = cipher_suite.encrypt(bytes(DNAC_PASS1, 'utf-8'))
+    with open(ENC_USER1_DNAC, 'wb') as writer:
+        writer.write(credentials['dnac_user1'])
+    with open(ENC_PASS1_DNAC, 'wb') as writer:
+        writer.write(credentials['dnac_password1'])
+
+
