@@ -32,3 +32,5 @@ __license__ = "Cisco Sample Code License, Version 1.1"
 DNAC_URL_REGION1 = 'https://<ip address>'
 DNAC_USER_REGION1 = b'<copy and paste encrypted binary value here from ENC_USER1_FILE, please keep the single quote and b>'
 DNAC_PASS_REGION1 = b'<copy and paste encrypted binary value here from ENC_PASS1_FILE, please keep the single quote and b>'
+APP_JSON = 'application/json'
+LIMIT = 500
