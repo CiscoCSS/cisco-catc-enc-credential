@@ -1,8 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
 """
 
-Copyright (c) 2021 Cisco and/or its affiliates.
+Copyright (c) 2025 Cisco and/or its affiliates.
 
 This software is licensed to you under the terms of the Cisco Sample
 Code License, Version 1.1 (the "License"). You may obtain a copy of the
@@ -20,7 +18,7 @@ or implied.
 """
 
 __author__ = "Shirin Khan <shirkhan@cisco.com>"
-__copyright__ = "Copyright (c) {{current_year}} Cisco and/or its affiliates."
+__copyright__ = "Copyright (c) 2025 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 import argparse
