@@ -116,13 +116,7 @@ Run python file:
 python dnac_file.py
 ```
 
-or
-
-```bash
-python decrypt_credential.py
-```
-
-or
+### Step 6.
 
 ```bash
 python dnac_encrypted.py
