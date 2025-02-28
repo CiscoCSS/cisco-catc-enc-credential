@@ -1,5 +1,5 @@
 ## cisco-catc-enc-credential
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoCSS/cisco-catc-enc-credential)
+
 ## Use Cryptography to Encrypt Catalyst Center Credentials
 
 Cisco Catalyst Center Credentials can be encrypted using Fernet library in Python. Here is an example how to achieve same.
@@ -146,6 +146,3 @@ Last updated 2018. Modify code to fit your environment.
 ## Disclaimer
 This document contains guidance based on Cisco’s recommended practices. You remain responsible for determining whether to employ this guidance,
 whether it fits your network design, business needs, and whether the guidance complies with laws, including any regulatory, security, or privacy requirements applicable to your business.
-
-
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoCSS/cisco-catc-enc-credential)
