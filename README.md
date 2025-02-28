@@ -126,7 +126,5 @@ Cisco DNA Center License: This project is licensed to you under the terms of the
 
 ## Disclaimer
 
-This document is Cisco Confidential information provided for your internal business use in connection with the Cisco Services purchased
-by you or your authorized reseller on your behalf. This document contains guidance based on Cisco’s recommended practices. You remain responsible for 
-determining whether to employ this guidance, whether it fits your network design, business needs, and whether the guidance complies with laws, 
-including any regulatory, security, or privacy requirements applicable to your business.
+This document contains guidance based on Cisco’s recommended practices. You remain responsible for determining whether to employ this guidance,
+whether it fits your network design, business needs, and whether the guidance complies with laws, including any regulatory, security, or privacy requirements applicable to your business.
