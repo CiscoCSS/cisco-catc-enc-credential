@@ -14,12 +14,17 @@ Use encrypted credentials for Catalyst Center APIs.
 
 ## Installation
 Clone the repo
+```bash
+git clone https://github.com/CiscoDevNet/cisco-catc-enccredential-python.git
+```
+or Download as zip on your environment by clicking the option "code >> local >> Download as zip"
 
-git clone https://github.com/CiscoDevNet/cisco-sdwan-python.git
 Go to your project folder
-
+```bash
 cd cisco-sdwan-python
-Set up a Python venv First make sure that you have Python 3 installed on your machine. We will then be using venv to create an isolated environment with only the necessary packages.
+```
+Set up a Python venv First make sure that you have Python 3.8 installed on your machine. We will then be using venv to create an isolated environment with only the necessary packages.
+
 ## Pre-requisite
 Python 3.8. If python is not installed, please follow:
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
