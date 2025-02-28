@@ -67,28 +67,33 @@ pip install fernet
 
 ## Run Script
 
-### Step 1. Generate key: 
+### Step 1. 
+Generate key: 
 
 ```bash
 python generate_key.py
 ```
 
-### Step 2. Generate encrypted user and password or credentials (Sanitize Prime):
+### Step 2. 
+Generate encrypted user and password or credentials (Sanitize Prime):
 
 ```bash
 python generate_enc_credentials.py
 ```
 
-### Step 3. Decrypt Credentials or Desanitize Prime:
+### Step 3. 
+Decrypt Credentials or Desanitize Prime:
 
 ```bash
 python decrypt_credentials.py
 ```
 
-### Step 4. Use it with DNAC files. Add encrypted username dnac_enc_user1.txt password dnac_enc_pass1.txt copy to dnac_config file.
+### Step 4. 
+Use it with DNAC files. Add encrypted username dnac_enc_user1.txt password dnac_enc_pass1.txt copy to dnac_config file.
 
-### Step 5. On DNAC File that you run example dnac_file.py. 
-        Run DNAC file:
+### Step 5. 
+On DNAC File that you run example dnac_file.py. 
+Run python file:
 
 ```bash
 python dnac_file.py
