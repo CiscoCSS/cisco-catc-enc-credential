@@ -17,7 +17,7 @@ or implied.
 
 """
 __author__ = "Shirin Khan <shirkhan@cisco.com>"
-__copyright__ = "Copyright (c) {{current_year}} Cisco and/or its affiliates."
+__copyright__ = "Copyright (c) 2025 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 
