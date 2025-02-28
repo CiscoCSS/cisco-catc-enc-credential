@@ -106,7 +106,8 @@ Modify variables
 ```
 DNAC_URL_REGION1 = 'https://<ip address>' with your catalyst Center IP address, 
 DNAC_USER_REGION1 = b'<copy and paste encrypted binary value here from dnac_enc_user1.txt, please keep the single quote and b>'
-DNAC_PASS_REGION1 = b'<copy and paste encrypted binary value here from dnac_enc_pass1.txt, please keep the single quote and b>'``` 
+DNAC_PASS_REGION1 = b'<copy and paste encrypted binary value here from dnac_enc_pass1.txt, please keep the single quote and b>'
+``` 
 
 ### Step 5. 
 On DNAC File that you run example dnac_file.py. 
