@@ -2,7 +2,7 @@
 
 ## Use Cryptography to Encrypt Catalyst Center Credentials
 
-Cisco Catalyst Center Credentials can be encrypted by using cryptography's Fernet library in Python. An example.
+Cisco Catalyst Center Credentials can be encrypted using Fernet library in Python. Here is an example how to achieve same.
 
 
 ## Business Challenge
