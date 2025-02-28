@@ -1,4 +1,4 @@
-## dnac_encryption
+## cisco-catc-enc-credential
 
 ## Use Cryptography to Encrypt Credentials
 
