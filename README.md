@@ -2,18 +2,24 @@
 
 ## Use Cryptography to Encrypt Credentials
 
-Cisco DNA Center APIs Scripts can utilize encrypted credentials using cryptography's Fernet library in Python.
+Cisco Catalyst Center Credentials needs to be encrypted by using cryptography's Fernet library in Python.
 
 
 ## Business Challenge
-Provide encrypted secured credentials while calling DNAC Api's
+Provide encrypted secured credentials for accessing Catalyst Center via APIs.
 
 
 ## Goal
-Use encrypted credentials in DNAC Api used scripts as well as provide a encryption method that meets vault, database or file store of the same. 
-Example.
+Use encrypted credentials for Catalyst Center APIs.
 
+## Installation
+Clone the repo
 
+git clone https://github.com/CiscoDevNet/cisco-sdwan-python.git
+Go to your project folder
+
+cd cisco-sdwan-python
+Set up a Python venv First make sure that you have Python 3 installed on your machine. We will then be using venv to create an isolated environment with only the necessary packages.
 ## Pre-requisite
 Python 3.8. If python is not installed, please follow:
 [https://www.python.org/downloads/](https://www.python.org/downloads/)
@@ -32,6 +38,7 @@ Python 3.8. If python is not installed, please follow:
 
 ## Setup
 
+Install virtualenv via pip
 ```bash
 python3 -m venv env3 
 ```
