@@ -123,9 +123,6 @@ python dnac_file.py
 ```bash
 python dnac_encrypted.py
 ```        
-
-Cisco DNA Center License: This project is licensed to you under the terms of the Cisco Sample Code License.
-
 **Cisco Sample Code License, Version 1.1**
 These terms govern this Cisco Systems, Inc. (“Cisco”), example or demo source code and its associated documentation (together, the “Sample Code”). By downloading, copying, modifying, compiling, or redistributing the Sample Code, you accept and agree to be bound by the following terms and conditions (the “License”). If you are accepting the License on behalf of an entity, you represent that you have the authority to do so (either you or the entity, “you”). Sample Code is not supported by Cisco TAC and is not tested for quality or performance. This is your only license to the Sample Code and all rights not expressly granted are reserved.
 
@@ -144,5 +141,4 @@ These terms govern this Cisco Systems, Inc. (“Cisco”), example or demo sourc
 Last updated 2018. Modify code to fit your environment. 
 
 ## Disclaimer
-This document contains guidance based on Cisco’s recommended practices. You remain responsible for determining whether to employ this guidance,
-whether it fits your network design, business needs, and whether the guidance complies with laws, including any regulatory, security, or privacy requirements applicable to your business.
+This document contains guidance based on Cisco’s recommended practices. You remain responsible for determining whether to employ this guidance, whether it fits your network design, business needs, and whether the guidance complies with laws, including any regulatory, security, or privacy requirements applicable to your business.
