@@ -15,7 +15,7 @@ Use encrypted credentials for Catalyst Center APIs.
 ## Installation
 Clone the repo
 ```bash
-git clone https://github.com/CiscoDevNet/cisco-catc-enc-credential.git
+git clone https://github.com/CiscoCSS/cisco-catc-enc-credential.git
 ```
 or Download as zip on your environment by clicking the option "code >> local >> Download as zip"
 
